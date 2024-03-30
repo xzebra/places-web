@@ -1,0 +1,149 @@
+lang: en
+
+page_title                                : TimeDeposit                               # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 6445899149                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+appstore_link                             : https://apple.co/3IeBarY                  # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    : /assets/PressKit.zip                      # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/appicon512.png                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : TimeDeposit                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Download it for free!                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : The ultimate time tracking app for busy professionals.
+
+# Apple Watch
+enable_apple_watch                        : true                                      # Set to true to display an apple watch app image.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Jorge Romanos                               
+your_link                                 : https://xzebra.dev                     
+your_city                                 : Spain                                
+email_address                             : contact@timedeposit.app
+facebook_username                         :                                           
+instagram_username                        : timedeposit.app
+twitter_username                          : timedepositapp
+github_username                           : 
+youtube_username                          :
+mastodon_link                             : https://indieapps.space/@timedeposit
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Track your task times
+    description                           : Create tasks and track times by starting a task session.
+    fontawesome_icon_name                 : stopwatch
+    
+  - title                                 : Group tasks in projects
+    description                           : You can group multiple tasks into a project to organize your work, times or billing.
+    fontawesome_icon_name                 : object-group
+
+  - title                                 : No rush!
+    description                           : If you forgot to track a task, you can create a session later. If you remember it while your are on it, create a started log.
+    fontawesome_icon_name                 : running
+
+  - title                                 : Stats
+    description                           : Get an overview of project task times with stats, top tasks and top projects.
+    fontawesome_icon_name                 : chart-pie
+
+  - title                                 : Calendar view
+    description                           : See your daily logs in a calendar. Add external calendar events (synced in your device) as task sessions in the app easily.
+    fontawesome_icon_name                 : calendar
+  
+  - title                                 : Archive tasks
+    description                           : Having tons of tasks can difficult starting a session. Archive the completed tasks to hide them. You won't lose any information.
+    fontawesome_icon_name                 : archive
+
+  - title                                 : iCloud synchronization
+    description                           : Automatic synchronization of the data between all your Apple devices (iPhone, iPad, Mac and Apple Watch) thanks to iCloud. Your current task session will also synchronize.
+    fontawesome_icon_name                 : cloud
+
+  - title                                 : Live Activities
+    description                           : Stay updated of the current task session elapsed time with Live Activities on your notifications center (or dynamic island) on your iPhone.
+    fontawesome_icon_name                 : satellite-dish
+
+  - title                                 : Apple Watch widgets
+    description                           : Add a shortcut to open the watch app on your work face, or a widget to keep track of the current task session elapsed time.
+    fontawesome_icon_name                 : clock
+
+  - title                                 : MacOS Menu Bar app
+    description                           : Keep a timer of your current task session in your menu bar. Start quick sessions from the menu.
+    fontawesome_icon_name                 : window-maximize
+
+  - title                                 : # New Feature Title
+    description                           : # New Feature Description
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.1
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+watch_color                               : black                                     # Set to: black or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#ff5577"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#ff5577"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
