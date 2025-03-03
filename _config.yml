@@ -1,6 +1,6 @@
 lang: en
 
-page_title                                : Bill Share                               # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Places                               # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 6478914904                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -12,9 +12,9 @@ presskit_download_link                    : /assets/PressKit.zip                
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon512.png                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Bill Share                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Places                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Download it for free!                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 'Simplifying group expense sharing'
+app_description                           : 'Pin your favorite places and share them with your friends'
 
 # Apple Watch
 enable_apple_watch                        : false                                      # Set to true to display an apple watch app image.
@@ -27,10 +27,10 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Jorge Romanos                               
 your_link                                 : https://xzebra.dev                     
 your_city                                 : Spain                                
-email_address                             : contact@billsharing.app
+email_address                             : contact@visitplaces.app
 facebook_username                         :                                           
 instagram_username                        : 
-twitter_username                          : billshareapp
+twitter_username                          :
 github_username                           : 
 youtube_username                          :
 mastodon_link                             : 
@@ -40,28 +40,28 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Share your expenses
-    description                           : Add expenses and share them with a group.
-    fontawesome_icon_name                 : users
+  - title                                 : Pin your favorite places
+    description                           : Add places and share them with a group.
+    fontawesome_icon_name                 : pin
     
-  - title                                 : Create expenses groups
-    description                           : You can create different groups for your house, friends, trip partners...
+  - title                                 : Create lists
+    description                           : You can create different lists  and share them with your friends.
     fontawesome_icon_name                 : object-group
 
-  - title                                 : Recurring bills
-    description                           : Create recurring expenses for rent, insurance, internet... See up next bills.
-    fontawesome_icon_name                 : redo
+  - title                                 : Mark as visited
+    description                           : Mark places as visited and see how many places you have left to visit.
+    fontawesome_icon_name                 : check
 
-  - title                                 : Settle up
-    description                           : Get simplified pay off recommendations for single payment debt settlement.
-    fontawesome_icon_name                 : chart-pie
+  - title                                 : Get details
+    description                           : Get details about the place like address, phone number, website, etc.
+    fontawesome_icon_name                 : info
 
-  - title                                 : Independent payments
-    description                           : See who paid each expense for easier reviewal.
-    fontawesome_icon_name                 : money-bill
+  - title                                 : Share with friends
+    description                           : Share places with your friends and keep track of their visits.
+    fontawesome_icon_name                 : users
 
-  - title                                 : Expenses history
-    description                           : Past paid expenses can also be seen and reviewed.
+  - title                                 : Places history
+    description                           : Past visited places can also be seen and reviewed.
     fontawesome_icon_name                 : list
 
   - title                                 : iCloud synchronization
@@ -69,7 +69,7 @@ features                                  :
     fontawesome_icon_name                 : cloud
 
   - title                                 : Offline mode
-    description                           : Add and review expenses offline, sync changes when reconnected
+    description                           : Add or review places offline, sync changes when reconnected
     fontawesome_icon_name                 : plane
 
   - title                                 : # New Feature Title
@@ -92,7 +92,7 @@ watch_color                               : black                               
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#FF9500"
+link_color                                : "#30b0c7"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -101,7 +101,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#FF9500"
+feature_icons_foreground_color            : "#30b0c7"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
